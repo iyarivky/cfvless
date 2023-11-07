@@ -30,7 +30,7 @@ async function handleRequest(req: Request) {
                     result += vless
                   }
             } else {
-                return new Response("port tidak didukung oleh Cloudflare Workers", {headers: {"content-type": "text/plain;charset=utf-8"}, status:200});
+                return new Response("port tidak didukung oleh Cloudflare Workers", {headers: {"content-type": "text/plain;charset=utf-8"}, status:400});
             }
         } else if (bugParams && !portParams) {
             for (let i = 0 ; i < cfvlessConfig.cfvless.length; i++){
@@ -52,7 +52,7 @@ async function handleRequest(req: Request) {
                     result += vless
                   }
             } else {
-                return new Response("port tidak didukung oleh Cloudflare Workers", {headers: {"content-type": "text/plain;charset=utf-8"}, status:200});
+                return new Response("port tidak didukung oleh Cloudflare Workers", {headers: {"content-type": "text/plain;charset=utf-8"}, status:400});
             }
         } else {
             for (let i = 0 ; i < cfvlessConfig.cfvless.length; i++){
