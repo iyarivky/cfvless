@@ -1519,6 +1519,22 @@
             "sni": "ext57.zxv.biz.id",
             "path": "/?ed=2048",
             "kode_domain": "EXT57"
+        },
+        {
+            "remarks": "Tempest",
+            "country": "DE",
+            "flag": "🇩🇪",
+            "address": "ext58.zxv.biz.id",
+            "port": 443,
+            "uuid": "4dba2b4a-d76f-429c-8547-0fcec7430356",
+            "encryption": "none",
+            "security": "tls",
+            "fp": "randomized",
+            "type": "ws",
+            "host": "ext58.zxv.biz.id",
+            "sni": "ext58.zxv.biz.id",
+            "path": "/?ed=2048",
+            "kode_domain": "EXT58"
         }
     ]
 }
