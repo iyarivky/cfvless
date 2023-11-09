@@ -29,6 +29,7 @@ async function handleRequest(req: Request) {
   const bugs = url.searchParams.get("bug")?.split(",") || ["zoom.us"];
   const ports = url.searchParams.get("port")?.split(",") || ["443"];
   const ccs = url.searchParams.get("cc")?.split(",");
+  const limit = parseInt(url.searchParams.get("limit") || "10");
 
   const tlsPorts = [443, 2053, 2083, 2087, 2096, 8443];
   const nonTlsPorts = [80, 8080, 8880, 2052, 2082, 2086, 2095];
@@ -84,6 +85,7 @@ async function handleRequest(req: Request) {
     // Generate results
     let result = "";
     for (let i = 0; i < cfvlessConfig.cfvless.length; i++) {
+      if (result.split("\n").length > limit) break;
       let {
         uuid,
         address,
