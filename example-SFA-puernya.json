@@ -108,15 +108,17 @@
         {
             "type": "selector",
             "tag": "Internet",
-            "outbounds": [
-                "Best Latency",
+            "providers": [
                 "CF-VLESS"
+            ],
+            "outbounds": [
+                "Best Latency"
             ]
         },
         {
             "type": "urltest",
             "tag": "Best Latency",
-            "outbounds": [
+            "providers": [
                 "CF-VLESS"
             ],
             "url": "http://gstatic.com/generate_204",
