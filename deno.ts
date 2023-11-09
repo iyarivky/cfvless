@@ -45,6 +45,10 @@ async function handleRequest(req: Request) {
     );
     let cfvless: Array<VlessObject> = [];
 
+
+    // Shuffle vless
+    cfvlessConfig.cfvless.sort(() => Math.random() - 0.5);
+
     // Filters
     // Country filter
     if (ccs) {
