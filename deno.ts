@@ -108,7 +108,7 @@ async function handleRequest(req: Request) {
       } = cfvlessConfig.cfvless[i];
       let vless = `vless://${uuid}@${address}:${port}?encryption=${encryption}&security=${
         tlsPorts.includes(port) ? security : "none"
-      }&fp=${fp}&type=${type}&host=${host}&sni=${sni}&path=${encodeURIComponent(
+      }${tlsPorts.includes(port) ? "&fp=" + fp : ""}&type=${type}&host=${host}${tlsPorts.includes(port) ? "&sni=" + sni : ""}&path=${encodeURIComponent(
         path
       )}#${flag}${country}-${kode_domain}-${remarks}-P${port}\n`;
       result += vless;
