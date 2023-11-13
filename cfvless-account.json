@@ -1535,6 +1535,54 @@
             "sni": "ext58.zxv.biz.id",
             "path": "/?ed=2048",
             "kode_domain": "EXT58"
+        },
+        {
+            "remarks": "GoogleCloud",
+            "country": "SG",
+            "flag": "🇸🇬",
+            "address": "ext59.zxv.biz.id",
+            "port": 443,
+            "uuid": "4dba2b4a-d76f-429c-8547-0fcec7430356",
+            "encryption": "none",
+            "security": "tls",
+            "fp": "randomized",
+            "type": "ws",
+            "host": "ext59.zxv.biz.id",
+            "sni": "ext59.zxv.biz.id",
+            "path": "/?ed=2048",
+            "kode_domain": "EXT59"
+        },
+        {
+            "remarks": "AkariNetwork",
+            "country": "JP",
+            "flag": "🇯🇵",
+            "address": "ext60.zxv.biz.id",
+            "port": 443,
+            "uuid": "4dba2b4a-d76f-429c-8547-0fcec7430356",
+            "encryption": "none",
+            "security": "tls",
+            "fp": "randomized",
+            "type": "ws",
+            "host": "ext60.zxv.biz.id",
+            "sni": "ext60.zxv.biz.id",
+            "path": "/?ed=2048",
+            "kode_domain": "EXT60"
+        },
+        {
+            "remarks": "Amazon",
+            "country": "SG",
+            "flag": "🇸🇬",
+            "address": "ext61.zxv.biz.id",
+            "port": 443,
+            "uuid": "4dba2b4a-d76f-429c-8547-0fcec7430356",
+            "encryption": "none",
+            "security": "tls",
+            "fp": "randomized",
+            "type": "ws",
+            "host": "ext61.zxv.biz.id",
+            "sni": "ext61.zxv.biz.id",
+            "path": "/?ed=2048",
+            "kode_domain": "EXT61"
         }
     ]
 }
