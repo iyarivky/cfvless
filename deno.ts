@@ -29,6 +29,7 @@ async function handleRequest(req: Request) {
   const bugs = url.searchParams.get("bug")?.split(",") || ["zoom.us"];
   const ports = url.searchParams.get("port")?.split(",") || ["443"];
   const ccs = url.searchParams.get("cc")?.split(",");
+  const servers = url.searchParams.get("server")?.split(",");
   const limit = parseInt(url.searchParams.get("limit") || "10");
 
   const tlsPorts = [443, 2053, 2083, 2087, 2096, 8443];
@@ -55,6 +56,16 @@ async function handleRequest(req: Request) {
       for (const cc of ccs) {
         cfvlessConfig.cfvless.forEach((vless) => {
           if (vless.country == cc.toUpperCase()) cfvless.push(vless);
+        });
+      }
+      cfvlessConfig.cfvless = cfvless;
+    }
+
+    // Server filter
+    if (servers) {
+      for (const server of servers) {
+        cfvlessConfig.cfvless.forEach((vless) => {
+          if (vless.remarks == server) cfvless.push(vless);
         });
       }
       cfvlessConfig.cfvless = cfvless;
