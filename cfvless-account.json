@@ -65,7 +65,7 @@
             "kode_domain": "CX4"
         },
         {
-            "remarks": "Evoxt Enterprise",
+            "remarks": "EvoxtEnterprise",
             "country": "MY",
             "flag": "🇲🇾",
             "address": "cx5.ntr.biz.id",
@@ -81,7 +81,7 @@
             "kode_domain": "CX5"
         },
         {
-            "remarks": "Telekom Malaysia",
+            "remarks": "TelekomMalaysia",
             "country": "MY",
             "flag": "🇲🇾",
             "address": "cx6.ntr.biz.id",
@@ -97,7 +97,7 @@
             "kode_domain": "CX6"
         },
         {
-            "remarks": "Google Cloud",
+            "remarks": "GoogleCloud",
             "country": "JP",
             "flag": "🇯🇵",
             "address": "cx7.ntr.biz.id",
@@ -113,7 +113,7 @@
             "kode_domain": "CX7"
         },
         {
-            "remarks": "Akari Network",
+            "remarks": "AkariNetwork",
             "country": "JP",
             "flag": "🇯🇵",
             "address": "cx8.ntr.biz.id",
@@ -129,7 +129,7 @@
             "kode_domain": "CX8"
         },
         {
-            "remarks": "Huawei International",
+            "remarks": "HuaweiInternational",
             "country": "HK",
             "flag": "🇭🇰",
             "address": "cx9.ntr.biz.id",
@@ -161,7 +161,7 @@
             "kode_domain": "CX10"
         },
         {
-            "remarks": "Digital Ocean",
+            "remarks": "DigitalOcean",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx11.ntr.biz.id",
@@ -177,7 +177,7 @@
             "kode_domain": "CX11"
         },
         {
-            "remarks": "Neustar Security Service",
+            "remarks": "NeustarSecurityService",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx12.ntr.biz.id",
@@ -209,7 +209,7 @@
             "kode_domain": "CX13"
         },
         {
-            "remarks": "Kaopu Cloud",
+            "remarks": "KaopuCloud",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx14.ntr.biz.id",
@@ -225,7 +225,7 @@
             "kode_domain": "CX14"
         },
         {
-            "remarks": "Kuroit Limited",
+            "remarks": "KuroitLimited",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx15.ntr.biz.id",
@@ -241,7 +241,7 @@
             "kode_domain": "CX15"
         },
         {
-            "remarks": "Akari Network",
+            "remarks": "AkariNetwork",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx16.ntr.biz.id",
@@ -257,7 +257,7 @@
             "kode_domain": "CX16"
         },
         {
-            "remarks": "AOFEI Data International",
+            "remarks": "AOFEIDataInternational",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx17.ntr.biz.id",
@@ -273,7 +273,7 @@
             "kode_domain": "CX17"
         },
         {
-            "remarks": "First Server",
+            "remarks": "FirstServer",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx18.ntr.biz.id",
@@ -289,7 +289,7 @@
             "kode_domain": "CX18"
         },
         {
-            "remarks": "Hostinger International",
+            "remarks": "HostingerInternational",
             "country": "SG",
             "flag": "🇸🇬",
             "address": "cx19.ntr.biz.id",
@@ -433,7 +433,7 @@
             "kode_domain": "CX27"
         },
         {
-            "remarks": "Warba Bank",
+            "remarks": "WarbaBank",
             "country": "KW",
             "flag": "🇰🇼",
             "address": "cx28.ntr.biz.id",
@@ -449,7 +449,7 @@
             "kode_domain": "CX28"
         },
         {
-            "remarks": "Dattatec Corp",
+            "remarks": "DattatecCorp",
             "country": "AR",
             "flag": "🇦🇷",
             "address": "cx29.ntr.biz.id",
@@ -465,7 +465,7 @@
             "kode_domain": "CX29"
         },
         {
-            "remarks": "Two Degrees Mobile",
+            "remarks": "TwoDegreesMobile",
             "country": "NZ",
             "flag": "🇳🇿",
             "address": "cx30.ntr.biz.id",
@@ -497,7 +497,7 @@
             "kode_domain": "CX31"
         },
         {
-            "remarks": "Global Internet Solutions",
+            "remarks": "GlobalInternetSolutions",
             "country": "BE",
             "flag": "🇧🇪",
             "address": "cx32.ntr.biz.id",
