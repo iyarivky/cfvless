@@ -122,7 +122,7 @@
             "encryption": "none",
             "security": "tls",
             "fp": "randomized",
-            " type": "ws",
+            "type": "ws",
             "host": "net7.ntr.biz.id",
             "sni": "net7.ntr.biz.id",
             "path": "/?ed=2048",
